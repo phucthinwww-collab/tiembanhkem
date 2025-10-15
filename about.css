@@ -1,0 +1,150 @@
+body {
+    background: linear-gradient(135deg, #f8e8ee 0%, #e0c3fc 100%);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(80, 0, 54, 0.12);
+    overflow: hidden;
+}
+
+.menutop {
+    background: linear-gradient(90deg, #b20054 60%, #1949b5 100%);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(80,0,54,0.08);
+}
+
+.menutop ul {
+    display: flex;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.menutop li {
+    list-style: none;
+    margin: 0;
+}
+
+.menutop li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 32px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    transition: background 0.3s, color 0.3s, font-size 0.2s;
+    border-right: 1px solid rgba(255,255,255,0.15);
+}
+
+.menutop li:last-child a {
+    border-right: none;
+}
+
+.menutop li a:hover {
+    color: #fff;
+    background: #1949b5;
+    font-size: 17px;
+    box-shadow: 0 2px 12px rgba(25,73,181,0.08);
+    border-radius: 8px 8px 0 0;
+}
+
+.menutop li a:active {
+    color: #ffd6e0;
+}
+
+.banner {
+  height: 280px;
+  width: 1000px;
+}
+
+#id {
+  border-right: 0px;
+}
+
+.detail {
+  text-align: center;
+  line-height: 40px;
+}
+.detail h2 {
+  color: #b20054;
+}
+.gopy-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    margin-top: 20px;
+  }
+
+.form {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.form label {
+    min-width: 80px;
+    font-weight: 500;
+    color: #b20054;
+}
+
+.form input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #e0c3fc;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: border 0.3s;
+}
+
+.form input:focus {
+    border: 1.5px solid #b20054;
+    outline: none;
+}
+
+.btn-gopy {
+    background: linear-gradient(90deg, #b20054 60%, #1949b5 100%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(80,0,54,0.12);
+    transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+    margin-top: 10px;
+}
+
+.btn-gopy:hover {
+    background: linear-gradient(90deg, #1949b5 60%, #b20054 100%);
+    color: #ffd6e0;
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 4px 16px rgba(25,73,181,0.18);
+}
+.footer {
+    width: 100%;
+    background: linear-gradient(90deg, #b20054 60%, #1949b5 100%);
+    color: #fff;
+    padding: 18px 0;
+    text-align: center;
+    border-radius: 0 0 18px 18px;
+    margin-top: 32px;
+    font-size: 15px;
+    box-shadow: 0 -2px 8px rgba(80,0,54,0.08);
+}
